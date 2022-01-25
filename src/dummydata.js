@@ -61,3 +61,88 @@ export const userData = [
     }
 
 ];
+
+
+export const userRows = [
+    {
+        id: 1,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 2,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 3,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 4,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 5,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 6,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 7,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 8,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 9,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    },
+    {
+        id: 10,
+        username: 'Snow jon',
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP2Yp1jbhj_MFVPoWWH4dppReQBsKeFf9-g&usqp=CAU",
+        email: "hon@gmail.com",
+        status: "active",
+        transaction: "$120.00"
+    }
+
+];
