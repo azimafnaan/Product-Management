@@ -12,6 +12,7 @@ import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import ReportGmailerrorredIcon from '@mui/icons-material/ReportGmailerrorred';
+import { Link } from 'react-router-dom';
 export default function Sidebar () {
     return (
         <div className="sidebar">
@@ -19,10 +20,12 @@ export default function Sidebar () {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
-                            <HomeIcon />
-                            Home
-                        </li>
+                        <Link to="/" className="Link">
+                            <li className="sidebarListItem active">
+                                <HomeIcon />
+                                Home
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <TimelineIcon className="sidebarIcon" />
                             Analytics
@@ -36,15 +39,19 @@ export default function Sidebar () {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <PersonOutlineIcon />
-                            Users
+                        <Link to="/users" className="Link">
+                            <li className="sidebarListItem">
+                                <PersonOutlineIcon />
+                                Users
 
-                        </li>
-                        <li className="sidebarListItem">
-                            <ProductionQuantityLimitsIcon />
-                            Products
-                        </li>
+                            </li>
+                        </Link>
+                        <Link to="/products" className="Link">
+                            <li className="sidebarListItem">
+                                <ProductionQuantityLimitsIcon />
+                                Products
+                            </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <AttachMoneyIcon />
                             Transactions
