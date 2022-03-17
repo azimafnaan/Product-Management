@@ -10,6 +10,7 @@ import {
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
+import ProductList from "./pages/productList/ProductList";
 
 function App () {
   return (
@@ -30,6 +31,15 @@ function App () {
           </Route>
           <Route path="/newUser">
             <NewUser></NewUser>
+          </Route>
+          <Route path="/products">
+            <ProductList></ProductList>
+          </Route>
+          <Route path="/product/:productId">
+            <ProductList></ProductList>
+          </Route>
+          <Route path="/newProduct">
+            <ProductList></ProductList>
           </Route>
         </Switch>
       </div>
